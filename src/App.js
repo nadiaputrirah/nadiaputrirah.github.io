@@ -1,10 +1,4 @@
-import {
-  Route,
-  Routes,
-  useLocation,
-  useNavigate,
-  useParams,
-} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes, useLocation, useNavigate} from "react-router-dom";
 import { useEffect } from "react";
 import "./App.css";
 
