@@ -1,6 +1,7 @@
 {
   "name": "nadiap-portofolio",
   "version": "0.1.0",
+  "homepage": "https://nadiaputrirah.github.io/nadiaputrirah.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -27,6 +28,8 @@
   "scripts": {
     "build:styles": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "start": "npm run build:styles && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -48,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
