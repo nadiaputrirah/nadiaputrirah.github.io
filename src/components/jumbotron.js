@@ -21,7 +21,7 @@ export default function Jumbotron() {
           </div>
           <img
             src={profile}
-            className="w-full items-center mb-4 rounded-lg mt-10"
+            className="w-full items-center mb-4 rounded-lg mt-4"
             alt="Info Logo"
           />
         </div>
