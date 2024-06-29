@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from "../assets/img-nadia.png";
+import profile from "../assets/img-banner.png";
 
 export default function Jumbotron() {
   return (
